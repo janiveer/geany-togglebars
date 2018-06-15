@@ -2,22 +2,13 @@ Geany Toggle Bars plugin
 ========================
 
 This is a plugin for `Geany`__
-to show and hide the menu and status bars with a keystroke.
+to show and hide the menu bar with a keystroke.
 
 __ http://geany.org/
 
-Most of the time, when using Geany,
-I don't need the menu and status bars; they are just noise.
-But occasionally I want to check the status bar
-(e.g. for the line/column number)
-or browse the menu.
-So I want to toggle their visibility with a keystroke.
-This plugin does that.
+Forked from the `Geany Toogle Bars`__ plugin by Vasiliy Faronov.
 
-Because it's so useful to see the progress bar during a build,
-the status bar will be automatically shown whenever the progress bar is shown
-(and hidden afterwards).
-
+__ https://github.com/vfaronov/geany-togglebars
 
 Installation
 ------------
@@ -39,7 +30,7 @@ Installation
    and enable GeanyPy and Toggle Bars.
 
 #. Select Toggle Bars, click Keybindings,
-   and set your preferred key for "Toggle menu and status bars".
+   and set your preferred key for "Toggle menu bar".
 
 __ http://plugins.geany.org/geanypy.html
 __ https://bugs.launchpad.net/ubuntu/+source/geany-plugins/+bug/1592928
